@@ -8,14 +8,21 @@ After completing my line-based fractal project, I wanted to explore polygon base
 
 This project as abandoned when I relocated to Indiana.
 ## Code Overview
+
+### Evolution
+Given a parent reptile, generate new child reptiles.
+
+### Discovery
+Discover new fundamental reptiles that cannot be generated as children of other reptieles.
+
 The completed codes create matricies that describe a valid combination of sides or angles and solves them to find the angle and side values. Custom data types were implemented to give exact solutions because angle and side measurements are guaranteed to have a single possible form built from rational numbers.
 
 The next step would have been a algorithm to attempt to build a reptile from the valid side and angle combinations.
 
 I'm not sure if the solution started here would have been practically computable. I wasn't able to put a tight upper bound on the number of possible angle and side combniations.
-### [matrixgen.jl](https://github.com/ericbumbalough/Reptiles/blob/master/matrixgen.jl)
+#### [matrixgen.jl](https://github.com/ericbumbalough/Reptiles/blob/master/discovery/matrixgen.jl)
 Build iterators for matricies describing possible side or angle combinations. Matricies are built in pieces and combined with iterator functions.
-### [matrixsol.jl](https://github.com/ericbumbalough/Reptiles/blob/master/matrixsol.jl)
+#### [matrixsol.jl](https://github.com/ericbumbalough/Reptiles/blob/master/discovery/matrixsol.jl)
 Build system of linear equations from matricies and solve them.
-### [reptileutils.jl](https://github.com/ericbumbalough/Reptiles/blob/master/reptileutils.jl)
+#### [reptileutils.jl](https://github.com/ericbumbalough/Reptiles/blob/master/discovery/reptileutils.jl)
 Contains custom datatypes for sides and angles and elementary functions for these types. 
