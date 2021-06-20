@@ -34,3 +34,5 @@ Generate simple rectangular and triangular reptiles.
 #### [Recurive Reptiles V1.ipynb](https://github.com/ericbumbalough/Reptiles/blob/master/evolution/Recursive%20Reptiles%20V1.ipynb)
 Replace each polygon in the reptile with the original reptile.
 
+#### [Reflected Reptiles V0.ipynb](https://github.com/ericbumbalough/Reptiles/blob/master/evolution/Reflected%20Reptiles%20V0.ipynb)
+Generate a new child reptile by reflecting the parent over its own side.
