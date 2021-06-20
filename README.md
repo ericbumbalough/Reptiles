@@ -8,6 +8,7 @@ After completing my line-based fractal project, I wanted to explore polygon base
 
 This project was abandoned when I relocated to Indiana.
 ## Code Overview
+This project is partially Jupyter notebooks and partially raw Julia files because it spans the transition of the "official" IDE of Julia from Jupyter to Atom.
 
 ### Discovery
 Discover new fundamental reptiles that cannot be generated as children of other reptieles.
@@ -27,7 +28,6 @@ Contains custom datatypes for sides and angles and elementary functions for thes
 ### Evolution
 Given a parent reptile, generate new child reptiles.
 
-#### [RecuriveReptilesV1.jl]
-(https://github.com/ericbumbalough/Reptiles/blob/master/evolution/RecuriveReptilesV1.jl)
+#### [RecuriveReptilesV1.jl](https://github.com/ericbumbalough/Reptiles/blob/master/evolution/RecuriveReptilesV1.jl)
 Replace each polygon in the reptile with the original reptile.
 
