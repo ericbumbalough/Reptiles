@@ -28,6 +28,9 @@ Contains custom datatypes for sides and angles and elementary functions for thes
 ### Evolution
 Given a parent reptile, generate new child reptiles.
 
-#### [RecuriveReptilesV1.jl](https://github.com/ericbumbalough/Reptiles/blob/master/evolution/RecuriveReptilesV1.jl)
+#### [Expansion Reptile Generation V0.ipynb](https://github.com/ericbumbalough/Reptiles/blob/master/evolution/Expansion%20Reptile%20Generation%20V0.ipynb)
+Generate simple rectangular and triangular reptiles.
+
+#### [Recurive Reptiles V1.ipynb](https://github.com/ericbumbalough/Reptiles/blob/master/evolution/Recursive%20Reptiles%20V1.ipynb)
 Replace each polygon in the reptile with the original reptile.
 
