@@ -6,11 +6,8 @@ Examples from MagistraMundi, CC BY-SA 3.0 <https://creativecommons.org/licenses/
 ## Personal Narrative
 After completing my line-based fractal project, I wanted to explore polygon based fractals such as Sierpinski's triangle. However, only very special polygons are reptiles and finding them can be difficult.
 
-This project as abandoned when I relocated to Indiana.
+This project was abandoned when I relocated to Indiana.
 ## Code Overview
-
-### Evolution
-Given a parent reptile, generate new child reptiles.
 
 ### Discovery
 Discover new fundamental reptiles that cannot be generated as children of other reptieles.
@@ -26,3 +23,11 @@ Build iterators for matricies describing possible side or angle combinations. Ma
 Build system of linear equations from matricies and solve them.
 #### [reptileutils.jl](https://github.com/ericbumbalough/Reptiles/blob/master/discovery/reptileutils.jl)
 Contains custom datatypes for sides and angles and elementary functions for these types. 
+
+### Evolution
+Given a parent reptile, generate new child reptiles.
+
+#### [RecuriveReptilesV1.jl]
+(https://github.com/ericbumbalough/Reptiles/blob/master/evolution/RecuriveReptilesV1.jl)
+Replace each polygon in the reptile with the original reptile.
+
