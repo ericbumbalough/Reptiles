@@ -10,14 +10,18 @@ This project was abandoned when I relocated to Indiana.
 ## Code Overview
 This project is partially Jupyter notebooks and partially raw Julia files because it spans the transition of the "official" IDE of Julia from Jupyter to Atom.
 
-### Discovery
-Discover new fundamental reptiles that cannot be generated as children of other reptieles.
+The code can be broken to to two distinct families.
+1. Discovery: Find new possible reptiles.
+2. Evolution: Given a parent reptile, generate new child reptiles.
 
-The completed codes create matricies that describe a valid combination of sides or angles and solves them to find the angle and side values. Custom data types were implemented to give exact solutions because angle and side measurements are guaranteed to have a single possible form built from rational numbers.
+### Discovery
+
+The completed codes create matricies that describe a valid combination of sides or angles and solves them to find the angle and side values. Angle and side measurements are guaranteed to have a single possible form built from rational numbers, so they were described with custom data types. This allows for  an exact solution rather than numerical approximation.
 
 The next step would have been a algorithm to attempt to build a reptile from the valid side and angle combinations.
 
 I'm not sure if the solution started here would have been practically computable. I wasn't able to put a tight upper bound on the number of possible angle and side combniations.
+
 #### [matrixgen.jl](https://github.com/ericbumbalough/Reptiles/blob/master/discovery/matrixgen.jl)
 Build iterators for matricies describing possible side or angle combinations. Matricies are built in pieces and combined with iterator functions.
 #### [matrixsol.jl](https://github.com/ericbumbalough/Reptiles/blob/master/discovery/matrixsol.jl)
@@ -26,7 +30,6 @@ Build system of linear equations from matricies and solve them.
 Contains custom datatypes for sides and angles and elementary functions for these types. 
 
 ### Evolution
-Given a parent reptile, generate new child reptiles.
 
 #### [Expansion Reptile Generation V0.ipynb](https://github.com/ericbumbalough/Reptiles/blob/master/evolution/Expansion%20Reptile%20Generation%20V0.ipynb)
 Generate simple rectangular and triangular reptiles.
